@@ -30,7 +30,7 @@ package lab1.task4
 
 internal fun isPalindrome(x: Int): Boolean {
     if((x<-10000000) or (x>1000000)) {
-        throw IllegalArgumentException("Number out problem declared range!")
+        throw IllegalArgumentException("Number out of problem declared range!")
     }
     if(x < 0) return false
     var num:String = x.toString()
